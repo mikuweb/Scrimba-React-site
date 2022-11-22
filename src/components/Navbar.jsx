@@ -3,13 +3,10 @@ import "../style.css"
 export const Navbar = () => {
 
     return (
-        <div className="nav__container">
-        <div className="nav__left">
-        <img  className="nav__logo" src="../images/react-icon.png" width="40px"/>
-         <p>ReactFacts</p>
-         </div>
-
-         <p className="nav__right">React Course - Project 1</p>  
-        </div>
+       <nav>
+        <img src="../images/react-icon.png" width="40px" className="nav--icon"/>
+         <h3 className="nav--logo_text">ReactFacts</h3>
+         <h4 className="nav--title">React Course - Project 1</h4>
+         </nav>
     )
 }
