@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__left{
+  display: flex;
+  gap: 8px;
+}
+
+.nav__logo{
+
+}
